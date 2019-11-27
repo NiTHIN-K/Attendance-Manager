@@ -1,0 +1,37 @@
+{
+  "name": "test-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "firebase": "^4.8.1",
+    "firebase-tools": "^6.3.0",
+    "json2xlsx-export": "^1.2.2",
+    "keymaster": "^1.6.2",
+    "lodash": "^4.17.11",
+    "parse-json": "^4.0.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-click-outside": "^3.0.0",
+    "react-confirm-alert": "^1.0.8",
+    "react-day-picker": "^7.0.7",
+    "react-dom": "^16.2.0",
+    "react-moment": "^0.8.4",
+    "react-numeric-input": "^2.2.3",
+    "react-popup": "^0.9.1",
+    "react-s-alert": "^1.4.0",
+    "react-scripts": "1.0.17",
+    "react-select": "^1.1.0",
+    "react-sidebar": "^2.3.2",
+    "react-sticky": "^6.0.1",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "firebase deploy"
+  }
+}
